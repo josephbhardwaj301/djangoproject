@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCQ</title>
+</head>
+<body>
+<center>
+    <h1>MCQ QUESTIONS</h1>
+    <form>
+        <input type="hidden" name="qno" value="{{qno}}">
+        <table>
+            <tr>
+                <th colspan="2">{{question}}</th>
+            </tr>
+            <tr>
+                <td><label><input required type="radio" value="1" name="option">{{opt1}}</label></td>
+                <td><label><input required type="radio" value="1" name="option">{{opt2}}</label></td>
+            </tr>
+            <tr>
+                <td><label><input required type="radio" value="1" name="option">{{opt3}}</label></td>
+                <td><label><input required type="radio" value="1" name="option">{{opt4}}</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="ANSWER">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

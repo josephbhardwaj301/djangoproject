@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_excel("graph plot.xlsx")
+print(df)
+print(df["A"])
+print(df["B"])
+print(df["C"])
+x = list(df["A"])
+print(x)
+y=list(df["B"])
+print(y)
+z=list(df["C"])
+print(z)
+plt.plot(x,y,z)
+plt.show()
